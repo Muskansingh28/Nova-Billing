@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-arrows {
+  -webkit-appearance: textfield; /* Remove default arrow buttons in Chrome/Safari */
+  -moz-appearance: textfield; /* Remove default arrow buttons in Firefox */
+}
+
+/* Remove spin buttons in WebKit browsers */
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.lightning-stroke {
+  background: linear-gradient(to right, rgba(17, 17, 17, 0) 0%, rgb(255, 255, 255) 50%, rgba(17, 17, 17, 0) 100%);
+}
+
+.gradient-1{
+  background-image: linear-gradient(rgb(31, 31, 34), rgb(18, 33, 70));
+}
+.bg-img-common {
+  @apply bg-image bg-fixed bg-center bg-no-repeat bg-cover pb-12 min-h-screen backdrop:blur-md;
+}
+
+.order-cancel{
+  background-color:  rgb(212, 22, 22);
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.card-fade {
+  border-image: fill 0 linear-gradient(#0001, #000);
+}
+
+.card-fade-2 {
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, transparent, black) 1;
+}
+
+
+.section_grid {
+  box-shadow: 0 0 0 1px var(--grey-600), inset 0 0 0 1px var(--grey-900);;
+}
+
+.glass-one{
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.loader-style {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #FFF #FFF transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader-style::after,
+.loader-style::before {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #FF3D00 #FF3D00;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+.loader-style::before {
+  width: 32px;
+  height: 32px;
+  border-color: #FFF #FFF transparent transparent;
+  animation: rotation 1.5s linear infinite;
+}
+    
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
