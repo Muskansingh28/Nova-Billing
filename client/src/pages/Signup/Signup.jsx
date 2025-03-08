@@ -88,7 +88,7 @@ export default function Signup() {
       title: "Company Name*",
       type: "text",
       name: "companyName",
-      placeholder: "novabills",
+      placeholder: "payflow",
     },
     {
       title: "Email*",
@@ -120,7 +120,7 @@ export default function Signup() {
       <div className="h-3/4 flex justify-center items-center z-10">
         <div className="w-[450px] rounded-2xl h-auto border border-gray-700 md:max-w-[350px]">
           <Card
-            title={"Create Your NovaBills account"}
+            title={"Create Your PayFlow account"}
             subTitle={"Get started for free."}
           />
 

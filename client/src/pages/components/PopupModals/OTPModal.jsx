@@ -51,7 +51,7 @@ export default function OTPModal(props) {
             otp verification
           </h1>
           <p className="text-2xl md2:text-lg mobile:text-sm font-semibold text-center ">
-            NovaBills has sent you an OTP! to Email, Enter below and get the use
+            PayFlow has sent you an OTP! to Email, Enter below and get the use
             of amazing features provided.
           </p>
           <form className="space-y-5 flex flex-col items-center">

@@ -26,9 +26,9 @@ async function sendEmail(OTP, email) {
     
     let response = {
       body : {
-        name : "Your NovaBills Email verification code",
+        name : "Your PayFlow Email verification code",
         intro : `Here's the one-time verification code you requested: ${OTP}`,
-        outro : "NovaBills"
+        outro : "PayFlow"
       }
     }
     
@@ -37,7 +37,7 @@ async function sendEmail(OTP, email) {
     let message = {
       from : process.env.SENDER_MAIL,
       to : email,
-      subject : "NovaBills Email verification OTP",
+      subject : "PayFlow Email verification OTP",
       html : mail
     }
     

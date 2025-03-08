@@ -18,7 +18,7 @@ export default function PreNavbar() {
       <div className="flex justify-center items-center space-x-16">
         <div className="flex space-x-4 items-center">
           <img src={Logo} alt="Logo" className="w-10 h-10" />
-          <p className="font-bold text-2xl tracking-wide relative">NovaBills</p>
+          <p className="font-bold text-2xl tracking-wide relative">PayFlow</p>
         </div>
         <div>
           <ul className="md:hidden flex space-x-16 cursor-pointer select-none text-gray-300 text-base">

@@ -73,7 +73,7 @@ export default function NavbarAfterLogin() {
           className="hidden sm:block text-gray-400 z-10 cursor-pointer"
         />
         <img src={Logo} alt="Logo" className="w-10 h-10 sm:w-8 sm:h-8" />
-        <p className="font-semibold text-xl sm:text-base">NovaBills</p>
+        <p className="font-semibold text-xl sm:text-base">PayFlow</p>
       </div>
       <div>
         <ul className="flex space-x-7 font-medium justify-center items-center">

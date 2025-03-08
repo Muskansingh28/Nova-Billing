@@ -62,7 +62,7 @@ export default function Login() {
       <div className="h-3/4 flex justify-center items-center rounded-2xl z-10">
         <div className="w-[450px] rounded-2xl h-auto border border-gray-700 md:max-w-[350px]">
           <Card
-            title={"Sign in to NovaBills"}
+            title={"Sign in to PayFlow"}
             subTitle={"Start creating your invoice for your business."}
           />
 

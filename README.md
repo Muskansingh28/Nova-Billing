@@ -1,4 +1,4 @@
-# NovaBills
+# PayFlow
 > [!IMPORTANT]
 > The simple solution to business to make invoices / Bills to their customers.
 

@@ -38,7 +38,7 @@ app.use(cors()); // use on deployment mode
 // }));
 
 app.get("/", (req,res)=>{
-    res.status(200).json({message : "NovaBills is a Invoice generator."});
+    res.status(200).json({message : "PayFlow is a Invoice generator."});
 })
 app.use(signup);
 app.use(login);

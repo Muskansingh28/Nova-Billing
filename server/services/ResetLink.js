@@ -28,14 +28,14 @@ async function sendResetLink(token, email) {
     let message = {
       from : process.env.SENDER_MAIL,
       to : email,
-      subject : "Reset Password link - NovaBills",
+      subject : "Reset Password link - PayFlow",
       html: `<h1>Reset Your Password</h1>
     <p>Click on the following link to reset your password:</p>
     <a href="${process.env.REACT_APP_BASE_URL}/reset-password/${token}">${process.env.REACT_APP_BASE_URL}/reset-password/${token}</a>
     <br/>
     <p>The link will expire in 10 minutes.</p>
     <p>If you didn't request a password reset, please ignore this email.</p>
-    <h2>From NovaBills</h2>
+    <h2>From PayFlow</h2>
     `,
     }
     
