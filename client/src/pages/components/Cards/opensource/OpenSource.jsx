@@ -8,7 +8,7 @@ export default function OpenSource() {
         </p>
         <section class="flex justify-center items-center">
           <a
-            href="https://github.com/muskansingh28"
+            href="https://github.com/Muskansingh28/PayFlow"
             target="blank"
             className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-white text-black font-semibold hover:px-7 hover:rounded-2xl transition-all duration-500 "
           >
